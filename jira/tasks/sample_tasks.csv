@@ -1,0 +1,7 @@
+#This sample list is not exhaustive
+Task 1: SAST (Checkmarx/Sonarqube), JIRA description for task 1 <EOL>
+Task 2: SCA scanning (Blackduck/OWAS-DependencyCheck), JIRA description for taks 2 <EOL>
+Task 3: Docker image scanning (Twistlock/Trivy),  JIRA description for taks 3 <EOL>
+Task 4: Threat Modelling, JIRA description for task 4  <EOL>
+Task 5: Port Scanning (nmap/Nessus/Qualys), JIRA description for task 5  <EOL>
+Task 6: SSL Scanning, JIRA description for task 6  <EOL>
