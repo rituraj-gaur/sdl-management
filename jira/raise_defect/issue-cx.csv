@@ -1,0 +1,9 @@
+Cross Site Scripting, Reflected XSS in (pks.js),Security, Noticed that the application's = embeds untrusted data in the generated output with below locations. This untrusted data is embedded straight into the output without proper sanitization or encoding thus enabling an attacker to inject malicious code into the output,Source filename: ci/jarvis/hubot/src/api/pks.js
+Source line number: 25 | Source object:  env
+Sink line number:  30 | Sink object:  set, <YOUR CHECKKMARX DEFECT URL><EOL>
+Cross Site Scripting, Reflected XSS in (build.js),Security,Noticed that the application's = embeds untrusted data in the generated output with below locations. This untrusted data is embedded straight into the output without proper sanitization or encoding thus enabling an attacker to inject malicious code into the output,Source filename: ci/jarvis/hubot/src/routes/builds.js
+Source line number:  37 | Source object:  job
+Sink line number:  35 | Sink object:  renderInLayout
+Source line number:  27 | Source object:  job
+Source line number:  27 | Source object:  number
+Source line number:  26 | Source object:  job, <YOUR CHECKKMARX DEFECT URL>
